@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class name="MyWorld" extends="World" enable="true" strideversion="1">
+<class name="MyWorld" extends="World" extends-java="World" enable="true" strideversion="1">
     <javadoc xml:space="preserve"/>
     <imports>
         <import target="java.util.*" enable="true"/>
@@ -16,5 +16,12 @@
             <body/>
         </constructor>
     </constructors>
-    <methods/>
+    <methods>
+        <method access="public" type="" type-java="" name="" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body/>
+        </method>
+    </methods>
 </class>
