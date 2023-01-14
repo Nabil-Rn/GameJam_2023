@@ -1,12 +1,12 @@
 #Greenfoot project file
-class.Acrophobia.image=imageonline-co-textimage.png
-class.Claustrophobia.image=imageonline-co-textimage-2.png
-class.Entomophobia.image=imageonline-co-textimage-3.png
+class.Acrophobia.image=Acrophobia.png
+class.Claustrophobia.image=Claustrophobia.png
+class.Entomophobia.image=Entomophobia.png
 class.Fear_selection.image=granite-light.jpg
 class.MyWorld.image=Title.png
-class.Nyctophobia.image=imageonline-co-textimage-6.png
-class.Ophidiophobia.image=imageonline-co-textimage-4.png
-class.Trypanophobia.image=imageonline-co-textimage-5.png
+class.Nyctophobia.image=Nyctophobia.png
+class.Ophidiophobia.image=Ophidiophobia.png
+class.Trypanophobia.image=Nyctophobia.png
 editor.fx.0.height=900
 editor.fx.0.width=1440
 editor.fx.0.x=0
