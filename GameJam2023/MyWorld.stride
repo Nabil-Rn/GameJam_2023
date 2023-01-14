@@ -16,12 +16,5 @@
             <body/>
         </constructor>
     </constructors>
-    <methods>
-        <method access="public" type="" type-java="" name="" enable="true">
-            <javadoc xml:space="preserve"/>
-            <params/>
-            <throws/>
-            <body/>
-        </method>
-    </methods>
+    <methods/>
 </class>

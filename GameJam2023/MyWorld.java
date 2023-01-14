@@ -16,11 +16,4 @@ public class MyWorld extends World
     {
         super(600, 400, 1);
     }
-
-    /**
-     * 
-     */
-    public code__dummy__gf3gen__0 invalid#()
-    {
-    }
 }
