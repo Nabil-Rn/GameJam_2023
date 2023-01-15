@@ -17,5 +17,13 @@ public class CutScene extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        if (Greenfoot.mouseClicked(this))
+        {   
+            World currentWorld = getWorld();
+            currentWorld.stopped();
+            World select =  new CutScene();
+            Greenfoot.setWorld(select);
+            select.started();
+        }
     }
 }

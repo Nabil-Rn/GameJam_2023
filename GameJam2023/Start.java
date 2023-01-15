@@ -29,7 +29,7 @@ public class Start extends Actor
         {   
             World currentWorld = getWorld();
             currentWorld.stopped();
-            World select =  new Fear_selection();
+            World select =  new CutScene();
             Greenfoot.setWorld(select);
             select.started();
         }
