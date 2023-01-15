@@ -7,14 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version (a version number or a date)
  */
 public class LifeParameter extends Actor
-{
-    private GreenfootImage heart1;
-    private GreenfootImage heart2;
-    private GreenfootImage heart3;
-    
-    Boss boss = (Boss) new Boss();
-    
-    
+{    
     public LifeParameter() {
         
     }

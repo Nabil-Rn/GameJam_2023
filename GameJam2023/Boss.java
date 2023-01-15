@@ -8,11 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Boss extends Actor
 {
-    public Boss(){
-        int health = 100;
-    
-    }
-    /**
+    static int health = 10;
+        /**
      * Act - do whatever the Boss wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
@@ -47,10 +44,14 @@ public class Boss extends Actor
     {
             Actor Playerhit = getOneIntersectingObject(Player.class);
             if (Playerhit != null){
-                
+                //if(){
+                    
+                //}
             }
     }
-    
+    public static int gethealth() { //count how many sheep the Wolf ate
+        return health;
+    }
     public void transitionToGameOver()
     {
         World currentLevel = getWorld();

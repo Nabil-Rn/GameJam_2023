@@ -14,6 +14,36 @@ public class Player extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        Attack();
+        movement();
+    }
+    
+    public void Attack() {
+                if (Greenfoot.isKeyDown("q")){
+                    //left hook - chance 30% - 1 dmage
+                    
+                }
+                if (Greenfoot.isKeyDown("w")){
+                    // tap jab - chance 30% - 2 dmage
+                    
+                    
+                    // holde charge attack - chance 30% - 3 dmage
+                }
+                if (Greenfoot.isKeyDown("e")){
+                    //right hook - chance 30% - 1 dmage
+                    
+                }
+    }
+    
+     public void movement() {
+                if (Greenfoot.isKeyDown("a")){
+                    // block w
+                }
+                if (Greenfoot.isKeyDown("s")){
+                    // block q and e
+                }
+                if (Greenfoot.isKeyDown("d")){
+                    // block w
+                }
     }
 }
