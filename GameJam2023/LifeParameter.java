@@ -20,8 +20,7 @@ public class LifeParameter extends Actor
         animateLifeParameter();
     }
     public void PlayerHealth() {
-                if () {
-            
+                //
         }
     }
 }
