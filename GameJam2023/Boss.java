@@ -8,6 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Boss extends Actor
 {
+    public Boss(){
+        int health = 100;
+    
+    }
     /**
      * Act - do whatever the Boss wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -39,11 +43,12 @@ public class Boss extends Actor
 
         }
     }
-     public void damge()
+     public void damage()
     {
-        if(){
-            
-        }
+            Actor Playerhit = getOneIntersectingObject(Player.class);
+            if (Playerhit != null){
+                
+            }
     }
     
     public void transitionToGameOver()
