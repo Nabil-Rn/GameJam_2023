@@ -13,9 +13,10 @@ public class MainMenu extends World
      */
     public MainMenu()
     {
-        super(130, 215, 1);
+        super(600, 400, 1);
         prepare();
     }
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
@@ -23,8 +24,8 @@ public class MainMenu extends World
     private void prepare()
     {
         Start start = new Start();
-        addObject(start,63,36);
+        addObject(start,470,230);
         Credit credit = new Credit();
-        addObject(credit,69,104);
+        addObject(credit,470,340);
     }
 }

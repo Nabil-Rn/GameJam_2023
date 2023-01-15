@@ -18,8 +18,9 @@ public class Credits extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         displayText();
+        prepare();
     }
-    
+
     public void displayText() {
         showText("Credits", 290, 110);
         showText("-----------------------------", 290, 140);
@@ -27,5 +28,14 @@ public class Credits extends World
         showText("Kevin | Programming & Trolling", 290, 190);
         showText("Jason | Art", 290, 210);
         showText("Bohdan| Art", 290, 230);
+    }
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        Back_toMain back_toMain = new Back_toMain();
+        addObject(back_toMain,116,341);
     }
 }

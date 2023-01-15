@@ -1,15 +1,10 @@
 #Greenfoot project file
-<<<<<<< Updated upstream
 class.Back_toMain.image=Back.png
 class.ControlsButton.image=Control.png
 class.Credit.image=Credit.png
-=======
-class.Boss.image=Title.png
-class.Credit.image=Credits.png
->>>>>>> Stashed changes
 class.Credits.image=space.jpg
 class.CutScene.image=bluerock.jpg
-class.MainMenu.image=Title.png
+class.MainMenu.image=Title_Final.png
 class.Start.image=Start.png
 dependency1.from=MainMenu
 dependency1.to=Start
@@ -17,24 +12,6 @@ dependency1.type=UsesDependency
 dependency2.from=MainMenu
 dependency2.to=Credit
 dependency2.type=UsesDependency
-<<<<<<< Updated upstream
-dependency3.from=Credit
-dependency3.to=Credits
-dependency3.type=UsesDependency
-dependency4.from=Start
-dependency4.to=CutScene
-dependency4.type=UsesDependency
-dependency5.from=Back_toMain
-dependency5.to=MainMenu
-dependency5.type=UsesDependency
-editor.fx.0.height=830
-editor.fx.0.width=1550
-editor.fx.0.x=-7
-editor.fx.0.y=-7
-height=830
-package.numDependencies=5
-package.numTargets=8
-=======
 dependency3.from=LifeParameter
 dependency3.to=Boss
 dependency3.type=UsesDependency
@@ -44,17 +21,19 @@ dependency4.type=UsesDependency
 dependency5.from=Start
 dependency5.to=CutScene
 dependency5.type=UsesDependency
-dependency6.from=Back_toMain
-dependency6.to=MainMenu
+dependency6.from=ControlsButton
+dependency6.to=Controls
 dependency6.type=UsesDependency
-editor.fx.0.height=900
-editor.fx.0.width=1440
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=900
-package.numDependencies=6
+dependency7.from=Back_toMain
+dependency7.to=MainMenu
+dependency7.type=UsesDependency
+editor.fx.0.height=737
+editor.fx.0.width=814
+editor.fx.0.x=360
+editor.fx.0.y=26
+height=830
+package.numDependencies=7
 package.numTargets=11
->>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -70,20 +49,12 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=70
-<<<<<<< Updated upstream
-target1.name=Start
-=======
 target1.name=CutScene
->>>>>>> Stashed changes
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=120
 target1.x=0
 target1.y=0
-<<<<<<< Updated upstream
-target2.height=70
-target2.name=ControlsButton
-=======
 target10.height=70
 target10.name=Back_toMain
 target10.showInterface=false
@@ -100,62 +71,41 @@ target11.x=0
 target11.y=0
 target2.height=70
 target2.name=LifeParameter
->>>>>>> Stashed changes
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120
 target2.x=0
 target2.y=0
 target3.height=70
-<<<<<<< Updated upstream
-target3.name=Back_toMain
-=======
-target3.name=Player
->>>>>>> Stashed changes
+target3.name=Boss
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=120
 target3.x=0
 target3.y=0
 target4.height=70
-<<<<<<< Updated upstream
-target4.name=MainMenu
-=======
 target4.name=Credits
->>>>>>> Stashed changes
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
 target5.height=70
-<<<<<<< Updated upstream
-target5.name=CutScene
-=======
-target5.name=Boss
->>>>>>> Stashed changes
+target5.name=Player
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=120
 target5.x=0
 target5.y=0
 target6.height=70
-<<<<<<< Updated upstream
-target6.name=Credits
-=======
 target6.name=Credit
->>>>>>> Stashed changes
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=120
 target6.x=0
 target6.y=0
 target7.height=70
-<<<<<<< Updated upstream
-target7.name=Credit
-=======
 target7.name=Start
->>>>>>> Stashed changes
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=120
@@ -168,8 +118,6 @@ target8.type=ClassTarget
 target8.width=120
 target8.x=0
 target8.y=0
-<<<<<<< Updated upstream
-=======
 target9.height=70
 target9.name=ControlsButton
 target9.showInterface=false
@@ -177,8 +125,8 @@ target9.type=ClassTarget
 target9.width=120
 target9.x=0
 target9.y=0
->>>>>>> Stashed changes
 version=3.0.0
-width=1440
+width=1550
+world.lastInstantiated=MainMenu
 xPosition=0
 yPosition=0
