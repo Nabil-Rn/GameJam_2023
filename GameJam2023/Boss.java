@@ -8,6 +8,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Boss extends Actor
 {
+    static boolean attack1 = false;
+    static boolean attack2 = false;
+    static boolean attack3 = false;
     static int health = 10;
         /**
      * Act - do whatever the Boss wants to do. This method is called whenever
@@ -20,7 +23,7 @@ public class Boss extends Actor
         transitionToGameOver();
     }
     
-    public void attack()
+    public int attack()
     {
         int randNb = Greenfoot.getRandomNumber(100);
         if (Greenfoot.getRandomNumber(100) < 3)
@@ -28,24 +31,33 @@ public class Boss extends Actor
             if (randNb == 0) 
             {
                 //
+                attack1 = true;
+                return 1;
             }
             if (randNb == 1) 
             {
                 //
+                attack2 = true;
+                return 1;
             }
             if (randNb == 2) 
             {
                 //
+                attack3 = true;
+                return 1;
             }
 
-        }
+        } 
+            return 0;
     }
+    
      public void damage()
     {
             Actor Playerhit = getOneIntersectingObject(Player.class);
             if (Playerhit != null){
                 //if(){
-                    
+                Player player = (Player) new Player();
+                health = health - player.Attack();
                 //}
             }
     }

@@ -17,10 +17,11 @@ public class LifeParameter extends Actor
      */
     public void act()
     {
-        animateLifeParameter();
+        PlayerHealth();
     }
     public void PlayerHealth() {
-                //
-        }
+                Player player = (Player) new Player();
+                int health = player.gethealth();
+    }
     }
 }
