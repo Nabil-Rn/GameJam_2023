@@ -26,4 +26,8 @@ public class CutScene extends World
             select.started();
         }
     }
+    
+    public void displayText() {
+        showText("There is no game", 290, 140);
+    }
 }
