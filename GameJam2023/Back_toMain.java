@@ -17,13 +17,13 @@ public class Back_toMain extends Actor
         // Add your action code here.
         if (Greenfoot.mouseMoved(this))
         {
-            setImage(".png");
+            setImage("BackSelected.png");
             //Greenfoot.playSound(".wav");
         }
 
         if (Greenfoot.mouseMoved(getWorld()))
         {
-            setImage(".png");
+            setImage("Back.png");
         }
 
         if (Greenfoot.mouseClicked(this))

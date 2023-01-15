@@ -19,8 +19,8 @@ public class CutScene extends World
         super(600, 400, 1); 
         if (Greenfoot.mouseClicked(this))
         {   
-            World currentWorld = getWorld();
-            currentWorld.stopped();
+            //World currentWorld = getWorld();
+            //currentWorld.stopped();
             World select =  new CutScene();
             Greenfoot.setWorld(select);
             select.started();

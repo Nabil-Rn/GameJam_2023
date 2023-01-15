@@ -15,5 +15,24 @@ public class ControlsButton extends Actor
     public void act()
     {
         // Add your action code here.
+        if (Greenfoot.mouseMoved(this))
+        {
+            setImage("ControlSelected.png");
+            //Greenfoot.playSound(".wav");
+        }
+
+        if (Greenfoot.mouseMoved(getWorld()))
+        {
+            setImage("Control.png");
+        }
+
+        if (Greenfoot.mouseClicked(this))
+        {   
+            World currentWorld = getWorld();
+            currentWorld.stopped();
+            World select =  new Controls();
+            Greenfoot.setWorld(select);
+            select.started();
+        }
     }
 }

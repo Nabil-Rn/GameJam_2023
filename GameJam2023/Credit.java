@@ -16,13 +16,13 @@ public class Credit extends Actor
     {
         if (Greenfoot.mouseMoved(this))
         {
-            setImage("CreditsSelect.png");
+            setImage("CreditSelected.png");
             //Greenfoot.playSound(".wav");
         }
 
         if (Greenfoot.mouseMoved(getWorld()))
         {
-            setImage("Credits.png");
+            setImage("Credit.png");
         }
 
         if (Greenfoot.mouseClicked(this))

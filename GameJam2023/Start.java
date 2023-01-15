@@ -16,7 +16,7 @@ public class Start extends Actor
     {
         if (Greenfoot.mouseMoved(this))
         {
-            setImage("StartSelect.png");
+            setImage("StartSelected.png");
             //Greenfoot.playSound(".wav");
         }
 
