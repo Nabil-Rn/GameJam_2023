@@ -25,7 +25,7 @@ public class Credits extends World
         showText("-----------------------------", 290, 140);
         showText("Nabil | Programming", 290, 170);
         showText("Kevin | Programming & Trolling", 290, 190);
-        showText("gamer | Art", 290, 210);
-        showText("gamer | Art", 290, 230);
+        showText("Jason | Art", 290, 210);
+        showText("Bohdan| Art", 290, 230);
     }
 }
